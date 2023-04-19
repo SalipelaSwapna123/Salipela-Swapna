@@ -57,4 +57,77 @@ if temp==rev:
 else:
   print("Not polindrome")
 
+PROGRAM:TO CHECK NUM IS ARMSTRONG OR NOT
+153=1^3+5^3+3^3=1+125+27=153
+program:
+num=int(input())
+temp=num
+rev=0
+sum=0
+while(num>0):
+ rem=num%10
+ sum=sum+rem*rem*rem
+ num=num/10
+if sum==temp:
+  print("Armstrong")
+else:
+  print("Not a Armstrong")
+
+ 4>Calculate the area of triangle ,square and rectangular
+ 
+ side=int(input("enter the side"))
+ area_square=side*side
+ print(area_square)
+ l=int(input())
+ b=int(input())
+ area_rec=l*b
+ print(area_rec)
+ base=int(input())
+ height=int(input())
+ area_tri=1/2*(base*height)
+ print(area_tri)
+ 
+ 5>swap 3 numbers:
+ a=int(input())
+ b=int(input())
+ c=int(input())
+ if a>b and a>c:
+    if b<c:
+     temp=a
+     a=b
+     b=c
+     c=temp
+    else:
+ 
+ 
+ 
+ 
+ 
+ 6>Fibbanacci series
+ n=int(input("enter no.of elements in series"))
+ a=0
+ b=1
+ if n<=2:
+   print("invali input")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
