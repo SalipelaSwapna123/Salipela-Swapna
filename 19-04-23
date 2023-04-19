@@ -1,0 +1,60 @@
+1>PATTERN1:
+1
+12
+123
+1234
+12345
+program: 
+i=1
+j=1
+x=int(input("enter the value"))
+for i in range(1,x+1):
+  for j in range(1,i+1):
+     print(j,end="")
+     print()
+2>PATTERN2:
+1
+22
+333
+4444
+55555
+program:
+i=1
+j=1
+x=int(input("enter the value"))
+for i in range(1,x+1):
+  for j in range(1,i+1):
+     print(i,end="")
+     print()
+3>POLINDROME
+while(num!=0)
+{
+rem=num%10;
+rev=rev*10+rem;
+num=num/10;
+}
+explanation:
+num=121
+rem=1
+rev=1
+num=12
+rem=2
+rev=12
+num=1
+rem=1
+rev=121
+num=0
+In pythom:
+num=int(input())
+temp=num
+rev=0
+while(num!=0):
+ rem=num%10
+ rev=rev*10+rem
+ num=num/10
+if temp==rev:
+  print("Polindrome")
+else:
+  print("Not polindrome")
+
+
