@@ -8,7 +8,7 @@
 3.count:string.count("a"):10
 4.find:string.find("h"):1
 5.replace:string.replace("3","50"))
-5>LIST:
+5>#....LIST....:
 list=["swapna",9.8,8,"preethi"]
 print(list):['swapna',9.8,8,'preethi']
 print(list[2]):8
@@ -44,9 +44,28 @@ l3.remove(3)
 6.pop()#used to delete last element and indexed element deletion
 ex:l4=[2,3,4,5,6,7,8]
 l4.pop()
+print(l4)
 [2,3,4,5,6,7]
 l4.pop(3)
+print(l4)
 [2,3,4,6,7]
+print(l4.pop()):7
+#...TUPLE....
+*It is immutable
+ex:t=(2,3,4,5,6)
+print(t)
+(2,3,4,5,6)
+#...tuple methods..
+1.count()
+ex:t=(2,3,4,4,5,6)
+t.count(6):1
+t.count(4):2
+2.index()
+ex:t=(2,3,4,5,6,4)
+t.index(4):2index value pf 4and first occurence
+t.index(4,2):5
+
+
 
 
 
